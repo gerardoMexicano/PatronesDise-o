@@ -1,5 +1,5 @@
 # Importamos las funciones de prueba de cada patrón
-from Creational.FactoryMethod.main import run_creational_patterns_tests
+from Creational.FactoryMethod.main import test_factory_method
 
 def main():
     """Función principal que ejecuta todas las pruebas."""
@@ -8,7 +8,7 @@ def main():
     print("========================================\n")
 
     # Llama a cada función de prueba
-
+    test_factory_method()
     # ... Llama a las demás aquí
 
     print("========================================")

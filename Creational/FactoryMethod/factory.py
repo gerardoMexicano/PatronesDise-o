@@ -17,8 +17,8 @@ class SmsNotifier(Notifier):
         print(f'Enviando por SMS: "{message}"')
 
 class PushNotifier(Notifier):
-    def send(self):
-        print(f'Enviando por Push: ')
+    def send(self, message: str):
+        print(f'Enviando por Push: "{message}"')
 
 # La Fábrica: su trabajo es crear los objetos correctos
 class NotificationFactory:

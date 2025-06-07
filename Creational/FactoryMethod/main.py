@@ -1,5 +1,5 @@
 # Creational/FactoryMethod/main.py
-from factory import NotificationFactory
+from .factory import NotificationFactory
 
 def test_factory_method():
     print("--- Prueba del Patrón Factory Method ---")
